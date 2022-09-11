@@ -1,6 +1,6 @@
 using System.Net;
 
-namespace FSH.WebApi.Application.Identity;
+namespace Knorooms.WebApi.Application.Identity;
 
 public class InternalServerException : CustomException
 {

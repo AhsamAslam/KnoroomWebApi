@@ -1,7 +1,7 @@
 ﻿using Finbuckle.MultiTenant;
-using FSH.WebApi.Application.Common.Caching;
+using Knorooms.WebApi.Application.Common.Caching;
 
-namespace FSH.WebApi.Infrastructure.Caching;
+namespace Knorooms.WebApi.Infrastructure.Caching;
 
 public class CacheKeyService : ICacheKeyService
 {

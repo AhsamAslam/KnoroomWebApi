@@ -1,4 +1,4 @@
-namespace FSH.WebApi.Application.Common.FileStorage;
+namespace Knorooms.WebApi.Application.Common.FileStorage;
 
 public interface IFileStorageService : ITransientService
 {

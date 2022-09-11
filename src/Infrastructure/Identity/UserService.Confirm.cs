@@ -1,11 +1,11 @@
 using System.Text;
-using FSH.WebApi.Application.Identity;
-using FSH.WebApi.Infrastructure.Common;
-using FSH.WebApi.Shared.Multitenancy;
+using Knorooms.WebApi.Application.Identity;
+using Knorooms.WebApi.Infrastructure.Common;
+using Knorooms.WebApi.Shared.Multitenancy;
 using Microsoft.AspNetCore.WebUtilities;
 using Microsoft.EntityFrameworkCore;
 
-namespace FSH.WebApi.Infrastructure.Identity;
+namespace Knorooms.WebApi.Infrastructure.Identity;
 
 internal partial class UserService
 {

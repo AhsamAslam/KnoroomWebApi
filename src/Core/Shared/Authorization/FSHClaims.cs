@@ -1,4 +1,4 @@
-﻿namespace FSH.WebApi.Shared.Authorization;
+﻿namespace Knorooms.WebApi.Shared.Authorization;
 
 public static class FSHClaims
 {

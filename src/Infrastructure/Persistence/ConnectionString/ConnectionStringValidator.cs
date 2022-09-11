@@ -1,12 +1,12 @@
-﻿using FSH.WebApi.Application.Common.Persistence;
-using FSH.WebApi.Infrastructure.Common;
+﻿using Knorooms.WebApi.Application.Common.Persistence;
+using Knorooms.WebApi.Infrastructure.Common;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using MySqlConnector;
 using Npgsql;
 using System.Data.SqlClient;
 
-namespace FSH.WebApi.Infrastructure.Persistence.ConnectionString;
+namespace Knorooms.WebApi.Infrastructure.Persistence.ConnectionString;
 
 internal class ConnectionStringValidator : IConnectionStringValidator
 {

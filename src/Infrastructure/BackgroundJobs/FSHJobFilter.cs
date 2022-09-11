@@ -1,13 +1,13 @@
 ﻿using System.Security.Claims;
 using Finbuckle.MultiTenant;
-using FSH.WebApi.Infrastructure.Common;
-using FSH.WebApi.Shared.Multitenancy;
+using Knorooms.WebApi.Infrastructure.Common;
+using Knorooms.WebApi.Shared.Multitenancy;
 using Hangfire.Client;
 using Hangfire.Logging;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace FSH.WebApi.Infrastructure.BackgroundJobs;
+namespace Knorooms.WebApi.Infrastructure.BackgroundJobs;
 
 public class FSHJobFilter : IClientFilter
 {

@@ -1,12 +1,12 @@
 ﻿using System.Security.Claims;
 using System.Text;
-using FSH.WebApi.Application.Common.Exceptions;
+using Knorooms.WebApi.Application.Common.Exceptions;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.IdentityModel.Tokens;
 
-namespace FSH.WebApi.Infrastructure.Auth.Jwt;
+namespace Knorooms.WebApi.Infrastructure.Auth.Jwt;
 
 internal static class Startup
 {

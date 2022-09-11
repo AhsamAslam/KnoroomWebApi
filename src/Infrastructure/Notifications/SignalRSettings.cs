@@ -1,4 +1,4 @@
-﻿namespace FSH.WebApi.Infrastructure.Notifications;
+﻿namespace Knorooms.WebApi.Infrastructure.Notifications;
 
 public class SignalRSettings
 {

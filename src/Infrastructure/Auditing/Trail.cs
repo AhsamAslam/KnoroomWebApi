@@ -1,6 +1,6 @@
-using FSH.WebApi.Domain.Common.Contracts;
+using Knorooms.WebApi.Domain.Common.Contracts;
 
-namespace FSH.WebApi.Infrastructure.Auditing;
+namespace Knorooms.WebApi.Infrastructure.Auditing;
 
 public class Trail : BaseEntity
 {

@@ -1,20 +1,20 @@
 using System.Reflection;
-using FSH.WebApi.Infrastructure.Auth;
-using FSH.WebApi.Infrastructure.BackgroundJobs;
-using FSH.WebApi.Infrastructure.Caching;
-using FSH.WebApi.Infrastructure.Common;
-using FSH.WebApi.Infrastructure.Cors;
-using FSH.WebApi.Infrastructure.FileStorage;
-using FSH.WebApi.Infrastructure.Localization;
-using FSH.WebApi.Infrastructure.Mailing;
-using FSH.WebApi.Infrastructure.Mapping;
-using FSH.WebApi.Infrastructure.Middleware;
-using FSH.WebApi.Infrastructure.Multitenancy;
-using FSH.WebApi.Infrastructure.Notifications;
-using FSH.WebApi.Infrastructure.OpenApi;
-using FSH.WebApi.Infrastructure.Persistence;
-using FSH.WebApi.Infrastructure.Persistence.Initialization;
-using FSH.WebApi.Infrastructure.SecurityHeaders;
+using Knorooms.WebApi.Infrastructure.Auth;
+using Knorooms.WebApi.Infrastructure.BackgroundJobs;
+using Knorooms.WebApi.Infrastructure.Caching;
+using Knorooms.WebApi.Infrastructure.Common;
+using Knorooms.WebApi.Infrastructure.Cors;
+using Knorooms.WebApi.Infrastructure.FileStorage;
+using Knorooms.WebApi.Infrastructure.Localization;
+using Knorooms.WebApi.Infrastructure.Mailing;
+using Knorooms.WebApi.Infrastructure.Mapping;
+using Knorooms.WebApi.Infrastructure.Middleware;
+using Knorooms.WebApi.Infrastructure.Multitenancy;
+using Knorooms.WebApi.Infrastructure.Notifications;
+using Knorooms.WebApi.Infrastructure.OpenApi;
+using Knorooms.WebApi.Infrastructure.Persistence;
+using Knorooms.WebApi.Infrastructure.Persistence.Initialization;
+using Knorooms.WebApi.Infrastructure.SecurityHeaders;
 using MediatR;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Mvc;
@@ -22,7 +22,7 @@ using Microsoft.AspNetCore.Routing;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace FSH.WebApi.Infrastructure;
+namespace Knorooms.WebApi.Infrastructure;
 
 public static class Startup
 {

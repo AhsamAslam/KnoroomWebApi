@@ -1,9 +1,9 @@
-using FSH.WebApi.Application.Common.Events;
-using FSH.WebApi.Shared.Events;
+using Knorooms.WebApi.Application.Common.Events;
+using Knorooms.WebApi.Shared.Events;
 using MediatR;
 using Microsoft.Extensions.Logging;
 
-namespace FSH.WebApi.Infrastructure.Common.Services;
+namespace Knorooms.WebApi.Infrastructure.Common.Services;
 
 public class EventPublisher : IEventPublisher
 {

@@ -1,10 +1,10 @@
-﻿using FSH.WebApi.Application.Common.Exceptions;
-using FSH.WebApi.Application.Common.Mailing;
-using FSH.WebApi.Application.Identity;
-using FSH.WebApi.Application.Identity.Users.Password;
+﻿using Knorooms.WebApi.Application.Common.Exceptions;
+using Knorooms.WebApi.Application.Common.Mailing;
+using Knorooms.WebApi.Application.Identity;
+using Knorooms.WebApi.Application.Identity.Users.Password;
 using Microsoft.AspNetCore.WebUtilities;
 
-namespace FSH.WebApi.Infrastructure.Identity;
+namespace Knorooms.WebApi.Infrastructure.Identity;
 
 internal partial class UserService
 {

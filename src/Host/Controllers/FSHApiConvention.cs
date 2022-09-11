@@ -1,7 +1,7 @@
-﻿using FSH.WebApi.Infrastructure.Middleware;
+﻿using Knorooms.WebApi.Infrastructure.Middleware;
 using Microsoft.AspNetCore.Mvc.ApiExplorer;
 
-namespace FSH.WebApi.Host.Controllers;
+namespace Knorooms.WebApi.Host.Controllers;
 
 #nullable disable
 #pragma warning disable RCS1163

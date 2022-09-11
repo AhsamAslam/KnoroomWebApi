@@ -1,7 +1,7 @@
-﻿using FSH.WebApi.Application.Common.Interfaces;
+﻿using Knorooms.WebApi.Application.Common.Interfaces;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace FSH.WebApi.Infrastructure.Common;
+namespace Knorooms.WebApi.Infrastructure.Common;
 
 internal static class Startup
 {

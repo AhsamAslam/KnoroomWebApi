@@ -1,4 +1,4 @@
-namespace FSH.WebApi.Infrastructure.Auth.Jwt;
+namespace Knorooms.WebApi.Infrastructure.Auth.Jwt;
 
 public class JwtSettings
 {

@@ -1,4 +1,4 @@
-﻿namespace FSH.WebApi.Domain.Common.Contracts;
+﻿namespace Knorooms.WebApi.Domain.Common.Contracts;
 
 public interface IEntity
 {

@@ -1,10 +1,10 @@
 using System.Text;
-using FSH.WebApi.Application.Common.Caching;
-using FSH.WebApi.Application.Common.Interfaces;
+using Knorooms.WebApi.Application.Common.Caching;
+using Knorooms.WebApi.Application.Common.Interfaces;
 using Microsoft.Extensions.Caching.Distributed;
 using Microsoft.Extensions.Logging;
 
-namespace FSH.WebApi.Infrastructure.Caching;
+namespace Knorooms.WebApi.Infrastructure.Caching;
 
 #pragma warning disable CA2254
 public class DistributedCacheService : ICacheService

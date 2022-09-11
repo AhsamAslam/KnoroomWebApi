@@ -1,10 +1,10 @@
-﻿using FSH.WebApi.Application.Common.Persistence;
+﻿using Knorooms.WebApi.Application.Common.Persistence;
 using Infrastructure.Test.Multitenancy.Fixtures;
 using Xunit;
 using Xunit.Abstractions;
 using Xunit.Microsoft.DependencyInjection.Abstracts;
 
-namespace FSH.WebApi.Infrastructure.Multitenancy.Tests;
+namespace Knorooms.WebApi.Infrastructure.Multitenancy.Tests;
 
 public class ConnectionStringSecurerTests : TestBed<TestFixture>
 {

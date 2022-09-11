@@ -1,11 +1,11 @@
 using System.Reflection;
-using FSH.WebApi.Application.Common.Interfaces;
-using FSH.WebApi.Domain.Catalog;
-using FSH.WebApi.Infrastructure.Persistence.Context;
-using FSH.WebApi.Infrastructure.Persistence.Initialization;
+using Knorooms.WebApi.Application.Common.Interfaces;
+using Knorooms.WebApi.Domain.Catalog;
+using Knorooms.WebApi.Infrastructure.Persistence.Context;
+using Knorooms.WebApi.Infrastructure.Persistence.Initialization;
 using Microsoft.Extensions.Logging;
 
-namespace FSH.WebApi.Infrastructure.Catalog;
+namespace Knorooms.WebApi.Infrastructure.Catalog;
 
 public class BrandSeeder : ICustomSeeder
 {

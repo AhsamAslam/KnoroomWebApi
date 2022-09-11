@@ -1,4 +1,4 @@
-namespace FSH.WebApi.Application.Auditing;
+namespace Knorooms.WebApi.Application.Auditing;
 
 public interface IAuditService : ITransientService
 {

@@ -1,4 +1,4 @@
-namespace FSH.WebApi.Infrastructure.Mailing;
+namespace Knorooms.WebApi.Infrastructure.Mailing;
 
 public class MailSettings
 {
@@ -13,6 +13,4 @@ public class MailSettings
     public string? Password { get; set; }
 
     public string? DisplayName { get; set; }
-
-    public bool EnableVerification { get; set; }
 }

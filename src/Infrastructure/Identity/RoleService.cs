@@ -1,19 +1,19 @@
 using Finbuckle.MultiTenant;
-using FSH.WebApi.Application.Common.Events;
-using FSH.WebApi.Application.Common.Exceptions;
-using FSH.WebApi.Application.Common.Interfaces;
-using FSH.WebApi.Application.Identity;
-using FSH.WebApi.Application.Identity.Roles;
-using FSH.WebApi.Domain.Identity;
-using FSH.WebApi.Infrastructure.Persistence.Context;
-using FSH.WebApi.Shared.Authorization;
-using FSH.WebApi.Shared.Multitenancy;
+using Knorooms.WebApi.Application.Common.Events;
+using Knorooms.WebApi.Application.Common.Exceptions;
+using Knorooms.WebApi.Application.Common.Interfaces;
+using Knorooms.WebApi.Application.Identity;
+using Knorooms.WebApi.Application.Identity.Roles;
+using Knorooms.WebApi.Domain.Identity;
+using Knorooms.WebApi.Infrastructure.Persistence.Context;
+using Knorooms.WebApi.Shared.Authorization;
+using Knorooms.WebApi.Shared.Multitenancy;
 using Mapster;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Localization;
 
-namespace FSH.WebApi.Infrastructure.Identity;
+namespace Knorooms.WebApi.Infrastructure.Identity;
 
 internal class RoleService : IRoleService
 {

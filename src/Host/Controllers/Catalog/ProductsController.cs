@@ -1,6 +1,6 @@
-﻿using FSH.WebApi.Application.Catalog.Products;
+﻿using Knorooms.WebApi.Application.Catalog.Products;
 
-namespace FSH.WebApi.Host.Controllers.Catalog;
+namespace Knorooms.WebApi.Host.Controllers.Catalog;
 
 public class ProductsController : VersionedApiController
 {

@@ -1,16 +1,16 @@
-﻿using System.Security.Claims;
-using FSH.WebApi.Application.Common.Exceptions;
-using FSH.WebApi.Application.Common.Mailing;
-using FSH.WebApi.Application.Identity;
-using FSH.WebApi.Application.Identity.Users;
-using FSH.WebApi.Domain.Common;
-using FSH.WebApi.Domain.Identity;
-using FSH.WebApi.Shared.Authorization;
+﻿using Knorooms.WebApi.Application.Common.Exceptions;
+using Knorooms.WebApi.Application.Common.Mailing;
+using Knorooms.WebApi.Application.Identity;
+using Knorooms.WebApi.Application.Identity.Users;
+using Knorooms.WebApi.Domain.Common;
+using Knorooms.WebApi.Domain.Identity;
+using Knorooms.WebApi.Shared.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Identity.Web;
+using System.Security.Claims;
 
-namespace FSH.WebApi.Infrastructure.Identity;
+namespace Knorooms.WebApi.Infrastructure.Identity;
 
 internal partial class UserService
 {
@@ -124,7 +124,7 @@ internal partial class UserService
 
         var messages = new List<string> { string.Format(_localizer["User {0} Registered."], user.UserName) };
 
-        if (_mailSettings.EnableVerification && !string.IsNullOrEmpty(user.Email))
+        if (_securitySettings.RequireConfirmedAccount && !string.IsNullOrEmpty(user.Email))
         {
             // send verification email
             string emailVerificationUri = await GetEmailVerificationUriAsync(user, origin);

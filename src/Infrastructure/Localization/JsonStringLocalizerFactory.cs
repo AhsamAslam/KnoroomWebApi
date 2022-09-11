@@ -1,7 +1,7 @@
-﻿using FSH.WebApi.Application.Common.Caching;
+﻿using Knorooms.WebApi.Application.Common.Caching;
 using Microsoft.Extensions.Localization;
 
-namespace FSH.WebApi.Infrastructure.Localization;
+namespace Knorooms.WebApi.Infrastructure.Localization;
 
 public class JsonStringLocalizerFactory : IStringLocalizerFactory
 {

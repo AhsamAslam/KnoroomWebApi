@@ -1,7 +1,7 @@
 using System.ComponentModel;
 using System.Text.RegularExpressions;
 
-namespace FSH.WebApi.Infrastructure.Common.Extensions;
+namespace Knorooms.WebApi.Infrastructure.Common.Extensions;
 
 public static class EnumExtensions
 {

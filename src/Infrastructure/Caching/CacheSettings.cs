@@ -1,4 +1,4 @@
-namespace FSH.WebApi.Infrastructure.Caching;
+namespace Knorooms.WebApi.Infrastructure.Caching;
 
 public class CacheSettings
 {

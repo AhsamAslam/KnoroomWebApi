@@ -1,9 +1,9 @@
 using FluentValidation.AspNetCore;
-using FSH.WebApi.Application;
-using FSH.WebApi.Host.Configurations;
-using FSH.WebApi.Host.Controllers;
-using FSH.WebApi.Infrastructure;
-using FSH.WebApi.Infrastructure.Common;
+using Knorooms.WebApi.Application;
+using Knorooms.WebApi.Host.Configurations;
+using Knorooms.WebApi.Host.Controllers;
+using Knorooms.WebApi.Infrastructure;
+using Knorooms.WebApi.Infrastructure.Common;
 using Serilog;
 
 [assembly: ApiConventionType(typeof(FSHApiConventions))]

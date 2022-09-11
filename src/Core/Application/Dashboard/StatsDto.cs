@@ -1,4 +1,4 @@
-namespace FSH.WebApi.Application.Dashboard;
+namespace Knorooms.WebApi.Application.Dashboard;
 
 public class StatsDto
 {

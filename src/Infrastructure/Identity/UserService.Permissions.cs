@@ -1,9 +1,9 @@
-﻿using FSH.WebApi.Application.Common.Caching;
-using FSH.WebApi.Application.Common.Exceptions;
-using FSH.WebApi.Shared.Authorization;
+﻿using Knorooms.WebApi.Application.Common.Caching;
+using Knorooms.WebApi.Application.Common.Exceptions;
+using Knorooms.WebApi.Shared.Authorization;
 using Microsoft.EntityFrameworkCore;
 
-namespace FSH.WebApi.Infrastructure.Identity;
+namespace Knorooms.WebApi.Infrastructure.Identity;
 
 internal partial class UserService
 {

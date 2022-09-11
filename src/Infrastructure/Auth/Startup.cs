@@ -1,14 +1,14 @@
-using FSH.WebApi.Application.Common.Interfaces;
-using FSH.WebApi.Infrastructure.Auth.AzureAd;
-using FSH.WebApi.Infrastructure.Auth.Jwt;
-using FSH.WebApi.Infrastructure.Auth.Permissions;
-using FSH.WebApi.Infrastructure.Identity;
+using Knorooms.WebApi.Application.Common.Interfaces;
+using Knorooms.WebApi.Infrastructure.Auth.AzureAd;
+using Knorooms.WebApi.Infrastructure.Auth.Jwt;
+using Knorooms.WebApi.Infrastructure.Auth.Permissions;
+using Knorooms.WebApi.Infrastructure.Identity;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace FSH.WebApi.Infrastructure.Auth;
+namespace Knorooms.WebApi.Infrastructure.Auth;
 
 internal static class Startup
 {
@@ -20,7 +20,7 @@ internal static class Startup
 
             // Must add identity before adding auth!
             .AddIdentity();
-
+        services.Configure<SecuritySettings>(config.GetSection(nameof(SecuritySettings)));
         return config["SecuritySettings:Provider"].Equals("AzureAd", StringComparison.OrdinalIgnoreCase)
             ? services.AddAzureAdAuth(config)
             : services.AddJwtAuth(config);

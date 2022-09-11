@@ -1,6 +1,6 @@
-using FSH.WebApi.Application.Dashboard;
+using Knorooms.WebApi.Application.Dashboard;
 
-namespace FSH.WebApi.Host.Controllers.Dashboard;
+namespace Knorooms.WebApi.Host.Controllers.Dashboard;
 
 public class DashboardController : VersionedApiController
 {

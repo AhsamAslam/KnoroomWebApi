@@ -1,13 +1,13 @@
-﻿using FSH.WebApi.Infrastructure.Identity;
-using FSH.WebApi.Infrastructure.Multitenancy;
-using FSH.WebApi.Infrastructure.Persistence.Context;
-using FSH.WebApi.Shared.Authorization;
-using FSH.WebApi.Shared.Multitenancy;
+﻿using Knorooms.WebApi.Infrastructure.Identity;
+using Knorooms.WebApi.Infrastructure.Multitenancy;
+using Knorooms.WebApi.Infrastructure.Persistence.Context;
+using Knorooms.WebApi.Shared.Authorization;
+using Knorooms.WebApi.Shared.Multitenancy;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 
-namespace FSH.WebApi.Infrastructure.Persistence.Initialization;
+namespace Knorooms.WebApi.Infrastructure.Persistence.Initialization;
 
 internal class ApplicationDbSeeder
 {

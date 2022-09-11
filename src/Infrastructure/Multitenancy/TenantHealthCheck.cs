@@ -1,6 +1,6 @@
 using Microsoft.Extensions.Diagnostics.HealthChecks;
 
-namespace FSH.WebApi.Infrastructure.Multitenancy;
+namespace Knorooms.WebApi.Infrastructure.Multitenancy;
 
 public class TenantHealthCheck : IHealthCheck
 {

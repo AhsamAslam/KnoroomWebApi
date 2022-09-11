@@ -1,6 +1,6 @@
-using FSH.WebApi.Application.Identity.Roles;
+using Knorooms.WebApi.Application.Identity.Roles;
 
-namespace FSH.WebApi.Host.Controllers.Identity;
+namespace Knorooms.WebApi.Host.Controllers.Identity;
 
 public class RolesController : VersionNeutralApiController
 {

@@ -1,4 +1,4 @@
-﻿namespace FSH.WebApi.Shared.Notifications;
+﻿namespace Knorooms.WebApi.Shared.Notifications;
 
 public interface INotificationMessage
 {

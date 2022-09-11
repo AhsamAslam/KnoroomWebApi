@@ -1,4 +1,4 @@
-namespace FSH.WebApi.Infrastructure.Persistence;
+namespace Knorooms.WebApi.Infrastructure.Persistence;
 
 public class DatabaseSettings
 {

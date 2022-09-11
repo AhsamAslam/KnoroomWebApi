@@ -1,14 +1,14 @@
-using FSH.WebApi.Application.Multitenancy;
-using FSH.WebApi.Infrastructure.Persistence;
-using FSH.WebApi.Shared.Authorization;
-using FSH.WebApi.Shared.Multitenancy;
+using Knorooms.WebApi.Application.Multitenancy;
+using Knorooms.WebApi.Infrastructure.Persistence;
+using Knorooms.WebApi.Shared.Authorization;
+using Knorooms.WebApi.Shared.Multitenancy;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Primitives;
 
-namespace FSH.WebApi.Infrastructure.Multitenancy;
+namespace Knorooms.WebApi.Infrastructure.Multitenancy;
 
 internal static class Startup
 {
@@ -40,11 +40,11 @@ internal static class Startup
         {
             if (context is not HttpContext httpContext)
             {
-                return Task.FromResult((string?)null!);
+                return Task.FromResult((string?)null);
             }
 
             httpContext.Request.Query.TryGetValue(queryStringKey, out StringValues tenantIdParam);
 
-            return Task.FromResult(tenantIdParam.ToString());
+            return Task.FromResult((string?)tenantIdParam.ToString());
         });
 }

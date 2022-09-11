@@ -1,10 +1,10 @@
 ﻿using Finbuckle.MultiTenant;
-using FSH.WebApi.Application.Common.Interfaces;
-using FSH.WebApi.Shared.Notifications;
+using Knorooms.WebApi.Application.Common.Interfaces;
+using Knorooms.WebApi.Shared.Notifications;
 using Microsoft.AspNetCore.SignalR;
-using static FSH.WebApi.Shared.Notifications.NotificationConstants;
+using static Knorooms.WebApi.Shared.Notifications.NotificationConstants;
 
-namespace FSH.WebApi.Infrastructure.Notifications;
+namespace Knorooms.WebApi.Infrastructure.Notifications;
 
 public class NotificationSender : INotificationSender
 {

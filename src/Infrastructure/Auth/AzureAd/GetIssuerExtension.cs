@@ -1,4 +1,4 @@
-using FSH.WebApi.Infrastructure.Auth.AzureAd;
+using Knorooms.WebApi.Infrastructure.Auth.AzureAd;
 
 namespace System.Security.Claims;
 

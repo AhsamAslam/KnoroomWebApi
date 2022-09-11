@@ -1,7 +1,7 @@
-using FSH.WebApi.Shared.Authorization;
+using Knorooms.WebApi.Shared.Authorization;
 using Microsoft.AspNetCore.Authorization;
 
-namespace FSH.WebApi.Infrastructure.Auth.Permissions;
+namespace Knorooms.WebApi.Infrastructure.Auth.Permissions;
 
 public class MustHavePermissionAttribute : AuthorizeAttribute
 {

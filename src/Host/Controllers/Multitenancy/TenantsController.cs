@@ -1,6 +1,6 @@
-using FSH.WebApi.Application.Multitenancy;
+using Knorooms.WebApi.Application.Multitenancy;
 
-namespace FSH.WebApi.Host.Controllers.Multitenancy;
+namespace Knorooms.WebApi.Host.Controllers.Multitenancy;
 
 public class TenantsController : VersionNeutralApiController
 {

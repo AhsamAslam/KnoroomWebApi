@@ -1,6 +1,6 @@
-using FSH.WebApi.Shared.Events;
+using Knorooms.WebApi.Shared.Events;
 
-namespace FSH.WebApi.Domain.Common.Contracts;
+namespace Knorooms.WebApi.Domain.Common.Contracts;
 
 public abstract class DomainEvent : IEvent
 {

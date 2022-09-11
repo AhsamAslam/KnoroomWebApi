@@ -1,6 +1,6 @@
-﻿using FSH.WebApi.Application.Catalog.Products;
+﻿using Knorooms.WebApi.Application.Catalog.Products;
 
-namespace FSH.WebApi.Application.Catalog.Brands;
+namespace Knorooms.WebApi.Application.Catalog.Brands;
 
 public class DeleteBrandRequest : IRequest<Guid>
 {

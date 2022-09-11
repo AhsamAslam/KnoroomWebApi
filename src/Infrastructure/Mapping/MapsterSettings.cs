@@ -1,4 +1,4 @@
-﻿namespace FSH.WebApi.Infrastructure.Mapping;
+﻿namespace Knorooms.WebApi.Infrastructure.Mapping;
 
 public class MapsterSettings
 {

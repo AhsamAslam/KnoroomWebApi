@@ -1,8 +1,8 @@
-using FSH.WebApi.Domain.Common.Events;
-using FSH.WebApi.Domain.Identity;
-using FSH.WebApi.Shared.Events;
+using Knorooms.WebApi.Domain.Common.Events;
+using Knorooms.WebApi.Domain.Identity;
+using Knorooms.WebApi.Shared.Events;
 
-namespace FSH.WebApi.Application.Dashboard;
+namespace Knorooms.WebApi.Application.Dashboard;
 
 public class SendStatsChangedNotificationHandler :
     IEventNotificationHandler<EntityCreatedEvent<Brand>>,

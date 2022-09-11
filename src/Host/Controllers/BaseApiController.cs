@@ -1,6 +1,6 @@
 using MediatR;
 
-namespace FSH.WebApi.Host.Controllers;
+namespace Knorooms.WebApi.Host.Controllers;
 
 [ApiController]
 public class BaseApiController : ControllerBase

@@ -1,5 +1,5 @@
-﻿using FSH.WebApi.Application.Common.Persistence;
-using FSH.WebApi.Infrastructure.Persistence.ConnectionString;
+﻿using Knorooms.WebApi.Application.Common.Persistence;
+using Knorooms.WebApi.Infrastructure.Persistence.ConnectionString;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Xunit.Microsoft.DependencyInjection.Abstracts;

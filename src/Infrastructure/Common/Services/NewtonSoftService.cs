@@ -1,9 +1,9 @@
-using FSH.WebApi.Application.Common.Interfaces;
+using Knorooms.WebApi.Application.Common.Interfaces;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Converters;
 using Newtonsoft.Json.Serialization;
 
-namespace FSH.WebApi.Infrastructure.Common.Services;
+namespace Knorooms.WebApi.Infrastructure.Common.Services;
 
 public class NewtonSoftService : ISerializerService
 {
