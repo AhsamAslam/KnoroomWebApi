@@ -1,8 +1,8 @@
 {
   "DatabaseSettings": {
-    //"DBProvider": "mssql",
-    //"ConnectionString": "Data Source=(localdb)\\mssqllocaldb;Initial Catalog=fullStackHeroDb;Integrated Security=True;MultipleActiveResultSets=True"
-    "ConnectionString": "Host=ambarerp-ist01-postgresqldbserver.postgres.database.azure.com;Database=knoroom_webapi_dev;Port=5432;User Id=knoroom_db_user@ambarerp-ist01-postgresqldbserver;Password=3618933d8d67db5a77e5acea6bbcb0a591ad39b0;Ssl Mode=VerifyFull;Include Error Detail=true",
-    "DBProvider": "postgresql"
+    "DBProvider": "mssql",
+    "ConnectionString": "Data Source=localhost;Initial Catalog=knoroom_webapi_dev;Integrated Security=True;MultipleActiveResultSets=True"
+    //"ConnectionString": "Host=ambarerp-ist01-postgresqldbserver.postgres.database.azure.com;Database=knoroom_webapi_dev;Port=5432;User Id=knoroom_db_user@ambarerp-ist01-postgresqldbserver;Password=3618933d8d67db5a77e5acea6bbcb0a591ad39b0;Ssl Mode=VerifyFull;Include Error Detail=true",
+    //"DBProvider": "postgresql"
   }
 }
